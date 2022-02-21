@@ -13,6 +13,7 @@ def _get_avilable_services(config):
         for jj in SaveServices.SaveServiceInterface.__subclasses__()
     ]
     return dict(zip(services_names, services_factories))
+    
 class Container(containers.DeclarativeContainer):
 
     wiring_config = containers.WiringConfiguration(modules=[".views"])

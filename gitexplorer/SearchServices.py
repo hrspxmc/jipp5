@@ -1,8 +1,14 @@
+from abc import ABC, abstractmethod
 from github import Github
 from github.Repository import Repository
 from github.Commit import Commit
 
-class SearchService:
+class SearchServiceInterface(ABC):
+    @abstractmethod
+    def search_repositories():
+        pass
+
+class SearchService(SearchServiceInterface):
     def __init__(self, github_client):
         self._github_client = github_client
 

@@ -1,8 +1,9 @@
 github:
   request_timeout: 10
+  auth_token: "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"
 default:
   query: "Machine Learning"
   limit: 10
 db:
-  engine: "pickle" 
+  engine: "csv" 
   path: "pickles_folder/"
