@@ -30,12 +30,11 @@ class PickleSaveService(SaveServiceInterface):
     def save_repository(self, repo, query):
         pickle.dump(repo, open(self.db_path+query.replace(" ","_")+".pickle", "wb"))
 
-
 class CsvSaveService(SaveServiceInterface):
     service_name = "csv"
     def save_repository(self, repo, query):
         flatten_repo = [_flatten_dict(ii) for ii in repo]
-        with open('test4.csv', 'w') as csvfile:
+        with open(self.db_path+query.replace(" ","_")+".csv", 'w') as csvfile:
             writer = csv.DictWriter(csvfile, fieldnames = flatten_repo[1].keys())
             writer.writeheader()
             writer.writerows(flatten_repo)
