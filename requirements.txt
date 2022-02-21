@@ -1,2 +1,6 @@
 dependency-injector
 flask
+bootstrap-flask
+pygithub
+pyyaml
+sqlalchemy
