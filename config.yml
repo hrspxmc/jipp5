@@ -3,3 +3,6 @@ github:
 default:
   query: "Machine Learning"
   limit: 10
+db:
+  engine: "pickle" 
+  path: "pickles_folder/"
