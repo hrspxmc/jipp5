@@ -16,6 +16,8 @@ def index(
     limit = request.args.get("limit", default_limit, int)
     repositories = search_service.search_repositories(query, limit)
 
+    print(repositories[1]['url'])
+    print(repositories[1]['name'])
     if request.method == 'POST':
         save_service.save_repository(repositories, query)
 

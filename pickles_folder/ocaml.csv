@@ -1,0 +1,25 @@
+url,name,owner.login,owner.url,owner.avatar_url,latest_commit.sha,latest_commit.url,latest_commit.message,latest_commit.author_name
+https://github.com/ocaml/ocaml,ocaml,ocaml,https://github.com/ocaml,https://avatars.githubusercontent.com/u/1841483?v=4,a8bec2436336f2956e29802bad48cf21ff81f195,https://github.com/ocaml/ocaml/commit/a8bec2436336f2956e29802bad48cf21ff81f195,"Merge pull request #11046 from gasche/minor_heap_decommit_fix
+
+minor bugfix in caml_reallocate_minor_heap",Gabriel Scherer
+https://github.com/exercism/ocaml,ocaml,exercism,https://github.com/exercism,https://avatars.githubusercontent.com/u/5624255?v=4,f47e23c3cf3da58ee5cb87ece7c7b5bbe800f577,https://github.com/exercism/ocaml/commit/f47e23c3cf3da58ee5cb87ece7c7b5bbe800f577,"The `maintainers.json` file has been deprecated and no longer has any use. (#431)
+
+This commit removes this `maintainers.json` file.",Erik Schierboom
+https://github.com/TheAlgorithms/OCaml,OCaml,TheAlgorithms,https://github.com/TheAlgorithms,https://avatars.githubusercontent.com/u/20487725?v=4,e932c9b03857316092f9db897500d0cc23736980,https://github.com/TheAlgorithms/OCaml/commit/e932c9b03857316092f9db897500d0cc23736980,updating DIRECTORY.md,github-actions
+https://github.com/ocaml/v2.ocaml.org,v2.ocaml.org,ocaml,https://github.com/ocaml,https://avatars.githubusercontent.com/u/1841483?v=4,423893d6dc7004826ff773d072447317289f9f11,https://github.com/ocaml/v2.ocaml.org/commit/423893d6dc7004826ff773d072447317289f9f11,"Merge pull request #1621 from teodorlu/fix-cheatsheet-links
+
+Fix cheatsheet links",Patrick Ferris
+https://github.com/ocaml-community/awesome-ocaml,awesome-ocaml,ocaml-community,https://github.com/ocaml-community,https://avatars.githubusercontent.com/u/42271616?v=4,b59c1224f72bd6077469f571c54b3ae91e014b7c,https://github.com/ocaml-community/awesome-ocaml/commit/b59c1224f72bd6077469f571c54b3ae91e014b7c,"Merge pull request #212 from pveber/patch-1
+
+update info on bistro",Rizo I
+https://github.com/astrada/google-drive-ocamlfuse,google-drive-ocamlfuse,astrada,https://github.com/astrada,https://avatars.githubusercontent.com/u/1190416?v=4,79a4aea495552cc17b6d0f448131bbf4176bb267,https://github.com/astrada/google-drive-ocamlfuse/commit/79a4aea495552cc17b6d0f448131bbf4176bb267,Fix #720,Alessandro Strada
+https://github.com/ocaml-ppx/ocamlformat,ocamlformat,ocaml-ppx,https://github.com/ocaml-ppx,https://avatars.githubusercontent.com/u/31065556?v=4,3b8d3f264e1f31b3f41764557e52b60d4a68cfe1,https://github.com/ocaml-ppx/ocamlformat/commit/3b8d3f264e1f31b3f41764557e52b60d4a68cfe1,Add attributes on infix operator application (#2013),Etienne Millon
+https://github.com/ocaml/opam,opam,ocaml,https://github.com/ocaml,https://avatars.githubusercontent.com/u/1841483?v=4,4cffd41da0831773f15d1e4a44c9af7704b9dcae,https://github.com/ocaml/opam/commit/4cffd41da0831773f15d1e4a44c9af7704b9dcae,"Merge pull request #4910 from kit-ty-kate/prev-switch
+
+Add support for ""opam switch -"" (go to previous switch)",Kate
+https://github.com/ocaml/dune,dune,ocaml,https://github.com/ocaml,https://avatars.githubusercontent.com/u/1841483?v=4,30b84ff370351b13f05db34fd952dfe5d0249bcb,https://github.com/ocaml/dune/commit/30b84ff370351b13f05db34fd952dfe5d0249bcb,"doc: syntax & line edits for hacking.rst
+
+Signed-off-by: Christine Rose <professor.rose@gmail.com>
+
+ps-id: 333564E7-EBF4-44AC-8653-B5296B8F5914",Christine Rose
+https://github.com/mirage/ocaml-cohttp,ocaml-cohttp,mirage,https://github.com/mirage,https://avatars.githubusercontent.com/u/131943?v=4,f94a5ac9cf5d2f8f919c58ddc74a602e60d56d2d,https://github.com/mirage/ocaml-cohttp/commit/f94a5ac9cf5d2f8f919c58ddc74a602e60d56d2d,chore: update nix files,Rudi Grinberg
