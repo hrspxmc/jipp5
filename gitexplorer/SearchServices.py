@@ -5,7 +5,7 @@ from github.Commit import Commit
 
 class SearchServiceInterface(ABC):
     @abstractmethod
-    def search_repositories():
+    def search_repositories(self, query, limit):
         pass
 
 class SearchService(SearchServiceInterface):
